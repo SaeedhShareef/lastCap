@@ -1,3 +1,4 @@
+
 const router = require('express').Router()
 let TouristDestination = require('../models/addLocations.models');
 var bodyParser =require('body-parser');
