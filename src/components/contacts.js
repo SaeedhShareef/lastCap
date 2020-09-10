@@ -4,6 +4,7 @@ import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from 'react-bootstrap/Button';
+import {BACKEND_URL} from '../config'
 
 
 export default class Contacts extends Component {
@@ -32,7 +33,7 @@ this.onSubmit = this.onSubmit.bind(this)
     }
     
     getContactsPost() {
-        axios.get('http://localhost:5000/contacts')
+        axios.get(BACKEND_URL + 'contacts')
        .then((res) => {
          const data = res.data;
           console.log(res.data)
@@ -90,7 +91,7 @@ onSubmit(e){
   }
   console.log(contact);
 //122 video
-  axios.post('http://localhost:5000/contacts/add', contact)
+  axios.post(BACKEND_URL + 'contacts/add', contact)
   .then(res => console.log(res.data))
 
   // window.location = '/';

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import {BACKEND_URL} from '../config'
+
+
 class LocationsList extends Component {
   state = { 
     name: ' ',
@@ -21,7 +24,7 @@ componentDidMount(){
   this.getLocationPost();
 }
 getLocationPost() {
-    axios.get('http://localhost:5000/all-locations')
+    axios.get(BACKEND_URL + 'all-locations')
    .then((res) => {
      const data = res.data;
       console.log(res.data)
