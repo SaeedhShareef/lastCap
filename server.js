@@ -8,6 +8,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
+app.use(express.static('client/build'));
 // const uri = process.env.ATLAS_URI;
 mongoose
     .connect("mongodb+srv://capstone:12345@cluster0.gdfnt.mongodb.net/Cluster0?retryWrites=true&w=majority", { useNewUrlParser: true, useCreateIndex: true })
