@@ -28,7 +28,7 @@ export default class Navbar extends Component {
             <nav className="navbar navbar-light bg-warning justify-content-between navbar-expand-lg">
                       
 
-                <Link to="/" className="navbar-brand " > <img src={require('../assets/planeicon.png')} width="40px" alt="icon" class="icon"/>  EXPLORE CINCINNATI  </Link>
+                <Link to="/" className="navbar-brand " > <img src={require('../assets/planeicon.png')} width="40px" alt="icon" className="icon"/>  EXPLORE CINCINNATI  </Link>
                 <div className="">
                 <ul className="navbar-nav mx-auto"> 
                         <li className="navbar-item">
@@ -70,7 +70,7 @@ export default class Navbar extends Component {
                                 </UncontrolledDropdown>
                                             </ul>
             </div>
-                <form className="form-inline" method="get" action="https://google.com/search" autocomplete="on">
+                <form className="form-inline" method="get" action="https://google.com/search" autoComplete="on">
                 <input list="places" className="form-control mr-sm-2" type="text" placeholder="Search Google" aria-label="Search Google" id="searchName" name="q"/> 
 <datalist id="places">
 <option value="Hotels in Cincinnati"/>

@@ -15,7 +15,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 const cors = require('cors'); 
 app.use(cors()); 
 const dbURI =
-  "mongodb+srv://capstone:12345@cluster0.gdfnt.mongodb.net/Capstone?retryWrites=true&w=majority";
+  "mongodb+srv://capstone:12345@cluster0.gdfnt.mongodb.net/Cluster0?retryWrites=true&w=majority";
 mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((result) => app.listen(5000))

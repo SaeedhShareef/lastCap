@@ -5,7 +5,7 @@ export default class Footer extends Component {
     render() {
         return (
             <div className="layoutFooter footer whiteText">
-               <center class="footText"> 
+               <center className="footText"> 
                
                 <h4 className="yellowText"> Places to enjoy your stay: </h4> 
                         <p><a href="https://www.hilton.com/en/book/reservation/rooms/?WT.mc_id=zLADA0WW1XX2OLX3DA4MS5MS6_CVGNPHF7_129231037_&hmGUID=8cf4d81a-4af1-479a-1a2d-419d0083da1a&inputModule=HOTEL_SEARCH&viewPackagesAndPromotionsRate=true" target="_blank" rel="noopener noreferrer">Hilton Cincinnati Netherland Plaza</a></p>

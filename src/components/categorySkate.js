@@ -58,7 +58,7 @@ export default class Skate extends Component {
 
         <div style={{ padding: '1rem', margin:'0 auto', maxWidth: 1000, marginBottom:100 }}>
                 
-        <iframe width="960" height="560" src="https://www.youtube.com/embed/yPVYo8iZfmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="960" title="film" height="560" src="https://www.youtube.com/embed/yPVYo8iZfmA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
                 </div>
 
