@@ -4,7 +4,8 @@ import axios from 'axios';
 // import e from 'express';
 import ToggleButton from 'react-bootstrap/ToggleButton'
 import ToggleButtonGroup from 'react-bootstrap/ToggleButtonGroup'
-import {Button} from 'react-strap'
+import { Button } from 'reactstrap';
+
 export default class addLocations extends Component {
             constructor(props) {
                 super(props);

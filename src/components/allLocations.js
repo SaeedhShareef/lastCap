@@ -170,7 +170,7 @@ class allLocations extends Component {
 
                 <div style={{ padding: '1rem', margin:'0 auto', maxWidth: 1000 }}>
                 
-<iframe style={{ padding:'0rem', marginTop: 110, marginBottom: 250 }} width="960" height="560" src="https://www.youtube.com/embed/G8EUiH00BrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+<iframe title=' ' style={{ padding:'0rem', marginTop: 110, marginBottom: 250 }} width="960" height="560" src="https://www.youtube.com/embed/G8EUiH00BrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
                 </div>
 
