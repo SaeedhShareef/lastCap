@@ -3,7 +3,7 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Button from 'react-bootstrap/button';
+import Button from 'react-bootstrap/Button';
 
 
 export default class Contacts extends Component {
